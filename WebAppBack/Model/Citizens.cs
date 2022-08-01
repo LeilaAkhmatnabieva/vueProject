@@ -2,7 +2,7 @@
 
 namespace WebApplication1.Model
 {
-    public class Person
+    public class Citizens
     {
         // public Person(int id, string firstName, string middleName, string lastName)
         // {

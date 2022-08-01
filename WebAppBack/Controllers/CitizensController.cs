@@ -8,22 +8,22 @@ namespace WebApplication1.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class CitizensController : ControllerBase
     {
         // private static readonly string[] Summaries = new[]
         // {
         //     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         // };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<CitizensController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public CitizensController(ILogger<CitizensController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public Person[] Get()
+        [HttpGet(Name = "GetCitizens")]
+        public Citizens[] Get()
         {
             // return Enumerable.Range(1, 5)
             //     .Select(index => new WeatherForecast
@@ -35,9 +35,9 @@ namespace WebApplication1.Controllers
             //     .ToArray();
             return new []
                 {
-                    new Person{id = 1, first_name = "jfhg"},
-                    new Person{id = 2, first_name = "fjhfgf"},
-                    new Person{id = 3, first_name = "fjhghf"}
+                    new Citizens{id = 1, first_name = "jfhg"},
+                    new Citizens{id = 2, first_name = "fjhfgf"},
+                    new Citizens{id = 3, first_name = "fjhghf"}
                 };
         }
     }
