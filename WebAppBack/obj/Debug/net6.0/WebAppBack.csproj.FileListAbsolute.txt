@@ -25,3 +25,6 @@ C:\Users\l.akhmatnabieva\source\repos\vueproject1\WebAppBack\obj\Debug\net6.0\re
 C:\Users\l.akhmatnabieva\source\repos\vueproject1\WebAppBack\obj\Debug\net6.0\WebAppBack.pdb
 C:\Users\l.akhmatnabieva\source\repos\vueproject1\WebAppBack\obj\Debug\net6.0\WebAppBack.genruntimeconfig.cache
 C:\Users\l.akhmatnabieva\source\repos\vueproject1\WebAppBack\obj\Debug\net6.0\ref\WebAppBack.dll
+C:\Users\l.akhmatnabieva\source\repos\vueproject1\WebAppBack\bin\Debug\net6.0\Dapper.dll
+C:\Users\l.akhmatnabieva\source\repos\vueproject1\WebAppBack\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\l.akhmatnabieva\source\repos\vueproject1\WebAppBack\bin\Debug\net6.0\Npgsql.dll
